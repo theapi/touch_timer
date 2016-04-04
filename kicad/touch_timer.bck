@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MTCH6102
+D Low-Power Projected Capacitive Touch Controller SSOP
+K Capacitive Touch Controller
+F http://www.farnell.com/datasheets/1810724.pdf
+$ENDCMP
+#
+$CMP MTCH6102_SSOP
+D Low-Power Projected Capacitive Touch Controller SSOP
+K Capacitive Touch Controller
+F http://www.farnell.com/datasheets/1810724.pdf
+$ENDCMP
+#
+#End Doc Library
