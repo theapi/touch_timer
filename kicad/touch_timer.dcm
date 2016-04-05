@@ -6,6 +6,12 @@ K Capacitive Touch Controller
 F http://www.farnell.com/datasheets/1810724.pdf
 $ENDCMP
 #
+$CMP TOUCH_PAD_13
+D Low-Power Projected Capacitive Touch Controller SSOP
+K Capacitive Touch Controller
+F http://www.farnell.com/datasheets/1810724.pdf
+$ENDCMP
+#
 $CMP TOUCH_PAD_15
 D Low-Power Projected Capacitive Touch Controller SSOP
 K Capacitive Touch Controller

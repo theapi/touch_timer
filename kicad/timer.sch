@@ -90,17 +90,6 @@ Wire Wire Line
 	5750 2700 6100 2700
 Wire Wire Line
 	5750 2800 6100 2800
-$Comp
-L TOUCH_PAD_15 U1
-U 1 1 5703B32D
-P 3350 2500
-F 0 "U1" H 3350 750 60  0000 C CNN
-F 1 "TOUCH_PAD_15" H 3350 2600 60  0000 C CNN
-F 2 "touch_timer:touch_pad_rect" H 3350 2500 60  0001 C CNN
-F 3 "" H 3350 2500 60  0000 C CNN
-	1    3350 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 2700 4650 2700
 Wire Wire Line
@@ -127,10 +116,6 @@ Wire Wire Line
 	3900 3800 4650 3800
 Wire Wire Line
 	3900 3900 4650 3900
-Wire Wire Line
-	3900 4000 4650 4000
-Wire Wire Line
-	3900 4100 4650 4100
 Text Label 4400 2700 0    60   ~ 0
 RX0
 Text Label 4400 2800 0    60   ~ 0
@@ -157,8 +142,15 @@ Text Label 4400 3800 0    60   ~ 0
 RX11
 Text Label 4400 3900 0    60   ~ 0
 RX12
-Text Label 4400 4000 0    60   ~ 0
-RX13
-Text Label 4400 4100 0    60   ~ 0
-RX14
+$Comp
+L TOUCH_PAD_13 U1
+U 1 1 5704144A
+P 3350 2500
+F 0 "U1" H 3350 750 60  0000 C CNN
+F 1 "TOUCH_PAD_13" H 3350 2600 60  0000 C CNN
+F 2 "touch_timer:touch_circle" H 3350 2500 60  0001 C CNN
+F 3 "" H 3350 2500 60  0000 C CNN
+	1    3350 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
