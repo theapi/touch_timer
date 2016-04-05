@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name touch_timer)(type KiCad)(uri "$(KIPRJMOD)/touch_timer.pretty")(options "")(descr ""))
+)
