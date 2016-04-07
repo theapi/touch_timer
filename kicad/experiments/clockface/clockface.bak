@@ -196,7 +196,7 @@ F 3 "" H 5750 5350 50  0000 C CNN
 	1    5750 5350
 	1    0    0    -1  
 $EndComp
-Text Label 6100 2200 0    60   ~ 0
+Text Label 6000 2250 0    60   ~ 0
 3V3
 Wire Wire Line
 	6650 3500 7000 3500
@@ -240,9 +240,6 @@ Connection ~ 7200 2400
 Wire Wire Line
 	5550 3500 5100 3500
 Connection ~ 7000 2400
-Wire Wire Line
-	6100 1650 6100 3200
-Connection ~ 6100 2400
 Wire Wire Line
 	5850 2750 6350 2750
 Connection ~ 6100 2750
@@ -296,12 +293,12 @@ $EndComp
 $Comp
 L GND #PWR05
 U 1 1 57064E14
-P 6000 1650
-F 0 "#PWR05" H 6000 1400 50  0001 C CNN
-F 1 "GND" H 6000 1500 50  0000 C CNN
-F 2 "" H 6000 1650 50  0000 C CNN
-F 3 "" H 6000 1650 50  0000 C CNN
-	1    6000 1650
+P 6400 1650
+F 0 "#PWR05" H 6400 1400 50  0001 C CNN
+F 1 "GND" H 6400 1500 50  0000 C CNN
+F 2 "" H 6400 1650 50  0000 C CNN
+F 3 "" H 6400 1650 50  0000 C CNN
+	1    6400 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -312,26 +309,33 @@ Wire Wire Line
 Connection ~ 5750 5300
 Connection ~ 5550 5000
 $Comp
-L CONN_01X05 P?
+L CONN_01X05 P1
 U 1 1 5706A4A5
 P 6200 1450
-F 0 "P?" H 6200 1750 50  0000 C CNN
+F 0 "P1" H 6200 1750 50  0000 C CNN
 F 1 "CONN_01X05" V 6300 1450 50  0000 C CNN
-F 2 "" H 6200 1450 50  0000 C CNN
+F 2 "clockface:SMD_Header_Straight_1x05" H 6200 1450 50  0001 C CNN
 F 3 "" H 6200 1450 50  0000 C CNN
 	1    6200 1450
 	0    -1   -1   0   
 $EndComp
-Text Label 6200 1800 0    60   ~ 0
+Text Label 6200 1950 0    60   ~ 0
 SDA
-Text Label 6300 1950 0    60   ~ 0
+Text Label 6100 1800 0    60   ~ 0
 SCL
-Text Label 6400 2100 0    60   ~ 0
+Text Label 6300 2100 0    60   ~ 0
 INT
 Wire Wire Line
-	6200 1800 6200 1650
+	6200 1650 6200 1950
 Wire Wire Line
-	6300 1950 6300 1650
+	6300 1650 6300 2100
 Wire Wire Line
-	6400 2100 6400 1650
+	6000 1650 6000 2600
+Connection ~ 6000 2400
+Wire Wire Line
+	6100 1650 6100 1800
+Wire Wire Line
+	6100 2600 6100 3200
+Wire Wire Line
+	6000 2600 6100 2600
 $EndSCHEMATC
