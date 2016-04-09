@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Peter\repos\touch_timer\kicad\experiments\clockface\clockface.sch)
-    (date "07/04/2016 22:54:11")
+    (source C:/Users/Peter/repos/touch_timer/kicad/experiments/clockface/clockface.sch)
+    (date "09/04/2016 16:05:15")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

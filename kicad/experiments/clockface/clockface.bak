@@ -319,11 +319,11 @@ F 3 "" H 6200 1450 50  0000 C CNN
 	1    6200 1450
 	0    -1   -1   0   
 $EndComp
-Text Label 6200 1950 0    60   ~ 0
-SDA
-Text Label 6100 1800 0    60   ~ 0
-SCL
 Text Label 6300 2100 0    60   ~ 0
+SDA
+Text Label 6200 1950 0    60   ~ 0
+SCL
+Text Label 6100 1800 0    60   ~ 0
 INT
 Wire Wire Line
 	6200 1650 6200 1950
@@ -338,4 +338,15 @@ Wire Wire Line
 	6100 2600 6100 3200
 Wire Wire Line
 	6000 2600 6100 2600
+$Comp
+L GND #PWR?
+U 1 1 5706D7C6
+P 3700 3600
+F 0 "#PWR?" H 3700 3350 50  0001 C CNN
+F 1 "GND" H 3700 3450 50  0000 C CNN
+F 2 "" H 3700 3600 50  0000 C CNN
+F 3 "" H 3700 3600 50  0000 C CNN
+	1    3700 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
