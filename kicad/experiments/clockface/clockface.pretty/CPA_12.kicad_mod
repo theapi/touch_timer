@@ -1,12 +1,12 @@
-(module CPA_12 (layer F.Cu) (tedit 570A3296)
+(module CPA_12 (layer F.Cu) (tedit 570B97C0)
   (fp_text reference U1 (at 0 -24.975) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
-  (fp_text value TOUCH_PAD_13 (at 0 24.975) (layer F.Fab)
+  (fp_text value TOUCH_PAD_13 (at 0 24.975) (layer F.Fab) hide
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
   (pad 14 smd circle (at -10.795 -10.795) (size 1 1) (layers F.Cu))
-  (pad 14 smd circle (at 11.557 -11.176) (size 1 1) (layers F.Cu))
+  (pad 14 smd circle (at 11.3792 -11.3538) (size 1 1) (layers F.Cu))
   (pad 14 smd circle (at 11.176 11.43) (size 1 1) (layers F.Cu))
   (pad 14 smd circle (at -11.303 11.303) (size 1 1) (layers F.Cu))
   (pad 13 smd circle (at 0 0) (size 15 15) (layers F.Cu))
