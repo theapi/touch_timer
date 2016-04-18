@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
 
   (general
     (links 40)
@@ -806,9 +806,9 @@
   (segment (start 154.559 106.361399) (end 154.981001 106.7834) (width 0.305) (layer B.Cu) (net 13) (tstamp 570D6CCB))
   (segment (start 157.869 109.671399) (end 157.869 111.251508) (width 0.305) (layer F.Cu) (net 13) (tstamp 570A2D4D))
   (segment (start 151.301 94.178) (end 154.2109 94.178) (width 0.305) (layer B.Cu) (net 14))
+  (segment (start 154.2109 94.178) (end 160.69564 100.66274) (width 0.305) (layer B.Cu) (net 14))
   (segment (start 160.69564 100.66274) (end 163.963899 103.930999) (width 0.305) (layer F.Cu) (net 14) (tstamp 570CEEF6))
   (via (at 160.69564 100.66274) (size 0.75) (drill 0.4) (layers F.Cu B.Cu) (net 14))
-  (segment (start 154.2109 94.178) (end 160.69564 100.66274) (width 0.305) (layer B.Cu) (net 14) (tstamp 570CEEE6))
   (segment (start 163.963899 103.930999) (end 165.189509 103.930999) (width 0.305) (layer F.Cu) (net 14) (tstamp 570CEEF7))
   (segment (start 164.0158 103.930999) (end 165.189509 103.930999) (width 0.305) (layer F.Cu) (net 14) (tstamp 570A2D57))
   (via (at 162.601001 93.93174) (size 0.75) (drill 0.4) (layers F.Cu B.Cu) (net 15))
