@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
     (links 40)
     (no_connects 0)
-    (area 122.741999 67.691 172.892001 120.021)
+    (area 122.741999 68.527999 172.892001 118.678001)
     (thickness 1.6)
-    (drawings 26)
+    (drawings 28)
     (tracks 241)
     (zones 0)
     (modules 11)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -63,7 +63,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (grid_origin 147.86864 93.93174)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFF5FF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -572,6 +572,12 @@
     )
   )
 
+  (gr_text . (at 146.09064 96.97974) (layer B.Mask)
+    (effects (font (size 3 3) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text . (at 144.05864 98.50374) (layer B.Mask)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_circle (center 147.86864 93.93174) (end 139.99464 85.80374) (layer Cmts.User) (width 0.2))
   (gr_text "https://github.com/theapi/touch_timer\nkicad/experiments/clockface v1.0" (at 147.74164 113.36274) (layer B.SilkS) (tstamp 570B987B)
     (effects (font (size 1 1) (thickness 0.15) italic) (justify mirror))
