@@ -54,9 +54,9 @@ F 3 "" H 6100 3300 60  0000 C CNN
 	1    6100 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6700 3500 0    60   ~ 0
-SDA
 Text Label 6700 3600 0    60   ~ 0
+SDA
+Text Label 6700 3500 0    60   ~ 0
 SCL
 Text Label 6700 3700 0    60   ~ 0
 INT
@@ -319,9 +319,9 @@ F 3 "" H 6200 1450 50  0000 C CNN
 	1    6200 1450
 	0    -1   -1   0   
 $EndComp
-Text Label 6200 1950 0    60   ~ 0
-SDA
 Text Label 6100 1800 0    60   ~ 0
+SDA
+Text Label 6200 1950 0    60   ~ 0
 SCL
 Text Label 6300 2100 0    60   ~ 0
 INT
