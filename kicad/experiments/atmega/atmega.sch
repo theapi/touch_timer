@@ -256,9 +256,9 @@ F 3 "" H 9300 4000 50  0000 C CNN
 	1    9300 4000
 	1    0    0    -1  
 $EndComp
-Text Label 9050 3700 0    60   ~ 0
-SDA
 Text Label 9050 3800 0    60   ~ 0
+SDA
+Text Label 9050 3700 0    60   ~ 0
 SCL
 Wire Wire Line
 	9050 3700 9300 3700
@@ -270,7 +270,7 @@ U 1 1 5730C351
 P 9500 3800
 F 0 "P3" H 9500 4100 50  0000 C CNN
 F 1 "I2C" V 9600 3800 50  0000 C CNN
-F 2 "theapi:SMD_Header_Straight_1x05" H 9500 3800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 9500 3800 50  0001 C CNN
 F 3 "" H 9500 3800 50  0000 C CNN
 	1    9500 3800
 	1    0    0    1   
@@ -377,9 +377,9 @@ F 3 "" H 8750 2600 50  0000 C CNN
 	1    8750 2600
 	1    0    0    -1  
 $EndComp
-Text Label 9050 2900 0    60   ~ 0
-RX
 Text Label 9050 2800 0    60   ~ 0
+RX
+Text Label 9050 2900 0    60   ~ 0
 TX
 $Comp
 L +3.3V #PWR010
@@ -408,15 +408,15 @@ Wire Wire Line
 	8750 2500 9300 2500
 Wire Wire Line
 	8750 2500 8750 2600
-Text Label 9050 4700 0    60   ~ 0
+Text Label 9050 4800 0    60   ~ 0
 PB1
-Text Label 8900 4800 0    60   ~ 0
+Text Label 8900 4700 0    60   ~ 0
 PB2/SS
 Text Label 9050 5100 0    60   ~ 0
 PD3
-Text Label 9050 4900 0    60   ~ 0
-PD5
 Text Label 9050 5000 0    60   ~ 0
+PD5
+Text Label 9050 4900 0    60   ~ 0
 PD6
 $Comp
 L CONN_01X05 P4
@@ -424,15 +424,15 @@ U 1 1 5730ECDF
 P 9500 4900
 F 0 "P4" H 9500 5200 50  0000 C CNN
 F 1 "GPIO" V 9600 4900 50  0000 C CNN
-F 2 "theapi:SMD_Header_Straight_1x05" H 9500 4900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 9500 4900 50  0001 C CNN
 F 3 "" H 9500 4900 50  0000 C CNN
 	1    9500 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 4700 9300 4700
+	8900 4700 9300 4700
 Wire Wire Line
-	9300 4800 8900 4800
+	9300 4800 9050 4800
 Wire Wire Line
 	9300 4900 9050 4900
 Wire Wire Line
